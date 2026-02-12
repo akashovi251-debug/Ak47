@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pro Video Download Site</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+header { background: #111; color: #fff; padding: 20px; text-align: center; font-size: 28px; font-weight: bold; }
+.container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+.video-box { background: #fff; padding: 20px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.video-box h2 { font-size: 22px; margin-bottom: 15px; color: #333; }
+video { width: 100%; border-radius: 5px; }
+.download-btn { display: inline-block; margin-top: 12px; padding: 12px 25px; font-size: 18px; background: #ff0000; color: #fff; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+.download-btn:hover { background-color: #cc0000; }
+footer { text-align: center; padding: 15px 0; background: #111; color: #fff; margin-top: 40px; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<header>Pro Video Download Site</header>
+<div class="container">
+
+<!-- ===================== Bangla Videos ===================== -->
+<div class="video-box">
+  <h2>Bangla Video 1</h2>
+  <video controls poster="thumbnails/bangla1.jpg">
+    <source src="videos/Bangla1/bangla1.mp4" type="video/mp4">
+  </video>
+  <br>
+  <a class="download-btn" href="videos/Bangla1/bangla1.mp4" download>Download Video</a>
+</div>
+
+<div class="video-box">
+  <h2>Bangla Video 2</h2>
+  <video controls poster="thumbnails/bangla2.jpg">
+    <source src="videos/Bangla2/bangla2.mp4" type="video/mp4">
+  </video>
+  <br>
+  <a class="download-btn" href="videos/Bangla2/bangla2.mp4" download>Download Video</a>
+</div>
+
+<!-- ===================== Indian Videos ===================== -->
+<div class="video-box">
+  <h2>Indian Video 1</h2>
+  <video controls poster="thumbnails/indian1.jpg">
+    <source src="videos/Indian1/indian1.mp4" type="video/mp4">
+  </video>
+  <br>
+  <a class="download-btn" href="videos/Indian1/indian1.mp4" download>Download Video</a>
+</div>
+
+<div class="video-box">
+  <h2>Indian Video 2</h2>
+  <video controls poster="thumbnails/indian2.jpg">
+    <source src="videos/Indian2/indian2.mp4" type="video/mp4">
+  </video>
+  <br>
+  <a class="download-btn" href="videos/Indian2/indian2.mp4" download>Download Video</a>
+</div>
+
+<!-- ===================== English Videos ===================== -->
+<div class="video-box">
+  <h2>English Video 1</h2>
+  <video controls poster="thumbnails/english1.jpg">
+    <source src="videos/English1/english1.mp4" type="video/mp4">
+  </video>
+  <br>
+  <a class="download-btn" href="videos/English1/english1.mp4" download>Download Video</a>
+</div>
+
+<div class="video-box">
+  <h2>English Video 2</h2>
+  <video controls poster="thumbnails/english2.jpg">
+    <source src="videos/English2/english2.mp4" type="video/mp4">
+  </video>
+  <br>
+  <a class="download-btn" href="videos/English2/english2.mp4" download>Download Video</a>
+</div>
+
+<!-- ===================== Deshi Videos ===================== -->
+<div class="video-box">
+  <h2>Deshi Video 1</h2>
+  <video controls poster="thumbnails/deshi1.jpg">
+    <source src="videos/Deshi1/deshi1.mp4" type="video/mp4">
+  </video>
+  <br>
+  <a class="download-btn" href="videos/Deshi1/deshi1.mp4" download>Download Video</a>
+</div>
+
+<div class="video-box">
+  <h2>Deshi Video 2</h2>
+  <video controls poster="thumbnails/deshi2.jpg">
+    <source src="videos/Deshi2/deshi2.mp4" type="video/mp4">
+  </video>
+  <br>
+  <a class="download-btn" href="videos/Deshi2/deshi2.mp4" download>Download Video</a>
+</div>
+
+<!-- ===================== Placeholder for more categories ===================== -->
+<!-- তুমি চাইলে এখানে নতুন ক্যাটেগরি এবং ভিডিও add করতে পারো -->
+
+</div>
+
+<footer>&copy; 2026 Pro Video Download. All Rights Reserved.</footer>
+</body>
+</html>
