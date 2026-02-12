@@ -1,0 +1,45 @@
+/ (root)
+ ├─ index.html
+ ├─ videos/
+ │    ├─ Bangla1/
+ │    ├─ Bangla2/
+ │    ├─ Bangla3/
+ │    ├─ Bangla4/
+ │    ├─ Indian1/
+ │    ├─ Indian2/
+ │    ├─ Indian3/
+ │    ├─ Indian4/
+ │    ├─ English1/
+ │    ├─ English2/
+ │    ├─ English3/
+ │    ├─ English4/
+ │    ├─ Deshi1/
+ │    ├─ Deshi2/
+ │    ├─ Deshi3/
+ │    ├─ Deshi4/
+ │    ├─ Bollywood1/
+ │    ├─ Bollywood2/
+ │    ├─ Bollywood3/
+ │    ├─ Bollywood4/
+ │    ├─ Hollywood1/
+ │    ├─ Hollywood2/
+ │    ├─ Hollywood3/
+ │    ├─ Hollywood4/
+ │    ├─ Comedy1/
+ │    ├─ Comedy2/
+ │    ├─ Comedy3/
+ │    ├─ Comedy4/
+ │    ├─ Music1/
+ │    ├─ Music2/
+ │    ├─ Music3/
+ │    ├─ Music4/
+ │    ├─ Tutorials1/
+ │    ├─ Tutorials2/
+ │    ├─ Tutorials3/
+ │    ├─ Tutorials4/
+ │    └─ Others1/
+ │    └─ Others2/
+ └─ thumbnails/
+      ├─ bangla1.jpg
+      ├─ bangla2.jpg
+      └─ ...
