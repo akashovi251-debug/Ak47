@@ -1,104 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pro Video Download</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #111;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-      font-size: 28px;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    .video-box {
-      background-color: #fff;
-      padding: 20px;
-      margin-bottom: 30px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      border-radius: 8px;
-    }
-
-    .video-box h2 {
-      font-size: 22px;
-      margin-bottom: 15px;
-      color: #333;
-    }
-
-    video {
-      width: 100%;
-      border-radius: 5px;
-    }
-
-    .download-btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 12px 25px;
-      font-size: 18px;
-      background-color: #ff0000;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: 0.3s;
-    }
-
-    .download-btn:hover {
-      background-color: #cc0000;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px 0;
-      background-color: #111;
-      color: #fff;
-      margin-top: 40px;
-      font-size: 14px;
-    }
-
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pro Video Download Site</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+header { background: #111; color: #fff; padding: 20px; text-align: center; font-size: 28px; font-weight: bold; }
+.container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+.video-box { background: #fff; padding: 20px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.video-box h2 { font-size: 22px; margin-bottom: 15px; color: #333; }
+video { width: 100%; border-radius: 5px; }
+.download-btn { display: inline-block; margin-top: 12px; padding: 12px 25px; font-size: 18px; background: #ff0000; color: #fff; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+.download-btn:hover { background-color: #cc0000; }
+footer { text-align: center; padding: 15px 0; background: #111; color: #fff; margin-top: 40px; font-size: 14px; }
+</style>
 </head>
 <body>
 
-<header>
-Pro Video Download Site
-</header>
+<header>Pro Video Download Site</header>
 
 <div class="container">
 
+  <!-- Video 1 -->
   <div class="video-box">
-    <h2>Professional Sample Video</h2>
+    <h2>Professional Video 1</h2>
     <video controls>
       <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <br>
-    <a class="download-btn" href="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" download>
-      Download Video
-    </a>
+    <a class="download-btn" href="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" download>Download Video</a>
+  </div>
+
+  <!-- Video 2 -->
+  <div class="video-box">
+    <h2>Professional Video 2</h2>
+    <video controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <a class="download-btn" href="https://www.w3schools.com/html/mov_bbb.mp4" download>Download Video</a>
+  </div>
+
+  <!-- Video 3 -->
+  <div class="video-box">
+    <h2>Professional Video 3</h2>
+    <video controls>
+      <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <a class="download-btn" href="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" download>Download Video</a>
   </div>
 
 </div>
 
-<footer>
-&copy; 2026 Pro Video Download. All Rights Reserved.
-</footer>
+<footer>&copy; 2026 Pro Video Download. All Rights Reserved.</footer>
 
 </body>
 </html>
